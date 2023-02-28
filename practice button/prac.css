@@ -1,0 +1,55 @@
+#link{
+    color: rgb(216, 113, 10);
+}
+#p1{
+    font-size:x-large;
+    font-weight: bolder;
+
+}
+#p2{
+    color: darkgreen;
+    font-weight: bold;
+}
+#b1{background-color: rgb(255,216,20);
+    color: black;
+    border-radius: 8px;
+    border: none;
+    height: 20px;
+    width: 80px;
+    transition: 0.15s;
+}
+#b2{
+    background-color: rgb(255,164,28);
+    color: black;
+    margin-left: 10px;
+    border-radius: 8px; 
+    border: none;
+    height: 20px;
+    width: 80px;     
+    transition: 0.15s;
+}
+#b1:hover{
+    background-color:   black;
+    color: white;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.8);
+    
+    
+
+}
+    #b2:hover{
+        background-color:  black;
+        color: white;
+        
+         box-shadow: 10px 10px 10px rgba(0,0,0,0.8);
+        
+    }
+#b2:active{
+    opacity: 0.8 ;
+
+
+}
+#b1:active{
+    opacity: 0.8;
+    
+
+}
